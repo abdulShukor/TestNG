@@ -1,0 +1,17 @@
+
+
+testNG
+eclipse->help>install->
+Help->preference>
+Right click convert to testing, you can have multiple test case in one class
+Suite->test folder(module)->classes->class
+classNama.packagename, suite can have multiple module 
+@beforeTest,@afterTest-> scope is folder level, good for deleting cookies 
+@AfterSuite->@beforeSuite scope is entire xml form, good for URL and environment variable 
+@beforeMethod->afterMethod is scope to the test case 
+@beforeTest and @beforesuite is belong to xml file
+@BeforeClass scope to the class level 
+testing order in alphabetic order of method name 
+smoke test two-way, unique name with regular expression or make them group 
+
+
