@@ -1,5 +1,3 @@
-
-
 testNG
 eclipse->help>install->
 Help->preference>
@@ -13,5 +11,15 @@ classNama.packagename, suite can have multiple module
 @BeforeClass scope to the class level 
 testing order in alphabetic order of method name 
 smoke test two-way, unique name with regular expression or make them group 
-
+one common value across all test case or global environment 
+parameter-> (only applicable to test level) you can pass multiple value, global specific and test level specific. Constant. like URL 
+Method specific is independent of xml specific to test case
+Depend Onmethod can depend on multiple method or test case separate by, 
+@dataProvider you can pass combination value like credential with array 
+You can run test cases from xml and testing, if you have xml dependence then you cannot run from testNG  
+Timeout = 4000l
+You can active listener after and before test, good for failing result it is an interface separate class 
+Assertion is good for validation 
+For generating report test-output folder -> index.xml -> copy the path and past in a browser 
+be smart on test, suite level 
 
