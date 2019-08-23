@@ -23,3 +23,17 @@ Assertion is good for validation
 For generating report test-output folder -> index.xml -> copy the path and past in a browser 
 be smart on test, suite level 
 
+
+Global environment 
+Global variable keeps changing, like URL therefore you need for that global parameter which is common to all classes test cases.
+It is possible with java property class 
+Then create file with extension properties 
+In file write password = “abdul”
+Key value pair 
+Fileinputstream is about path 
+Two ways to sue the method of class, initiate the class, inheritance or in case interface 
+Reusable component makes in base then reuse it, make everything global and dynamic 
+Do not hard code and thing 
+
+ 
+
